@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="playingCards">
-        <Card />
+        <Card suit="D" rank="K" />
       </div>
     </div>
   );
