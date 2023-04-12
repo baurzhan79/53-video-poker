@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.App-ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: green;
+  min-height: 95vh;
+}
