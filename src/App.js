@@ -6,14 +6,20 @@ import Card from "./components/Card/card";
 function App() {
   const [myCards, setCards] = useState([]);
 
-  useEffect(() => {
+  const shuffleCards = () => {
     const cardDeck = new CardDeck();
     const cards = cardDeck.getCards(5);
     setCards(cards);
+  };
+
+  useEffect(() => {
+    shuffleCards();
   }, [])
 
   return (
     <div className="App">
+      <button onClick={shuffleCards} className="App-btn">Shuffle Cards</button>
+
       <div className="playingCards">
         <ul className="table App-ul">
           {
