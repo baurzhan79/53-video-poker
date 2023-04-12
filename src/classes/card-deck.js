@@ -36,6 +36,7 @@ class CardDeck {
             const randomCard = this.getCard();
             cards.push(randomCard);
         }
+
         return cards;
     }
 }

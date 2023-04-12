@@ -1,13 +1,14 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
-import CardDeck from './classes/card-deck';
 import Card from "./components/Card/card";
+import CardDeck from "./classes/card-deck";
+import PokerHand from "./classes/poker-hand";
 
 function App() {
   const [myCards, setCards] = useState([]);
+  const cardDeck = new CardDeck();
 
   const shuffleCards = () => {
-    const cardDeck = new CardDeck();
     const cards = cardDeck.getCards(5);
     setCards(cards);
   };
@@ -15,6 +16,13 @@ function App() {
   useEffect(() => {
     shuffleCards();
   }, [])
+
+  useEffect(() => {
+    if (myCards.length > 0) {
+      const pokerHand = new PokerHand(myCards, cardDeck.suits, cardDeck.ranks);
+      pokerHand.getOutcome();
+    }
+  }, [myCards])
 
   return (
     <div className="App">
@@ -26,7 +34,7 @@ function App() {
             myCards.map((card, index) => {
               return (
                 <li key={index}>
-                  <Card suit={card.suit} rank={card.rank}></Card>
+                  <Card suit={card.suit} rank={card.rank} />
                 </li>
               )
             })
