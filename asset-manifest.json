@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/53-video-poker/static/css/main.0e9e7789.css",
+    "main.js": "/53-video-poker/static/js/main.b049ed9f.js",
+    "static/js/787.85b65f4e.chunk.js": "/53-video-poker/static/js/787.85b65f4e.chunk.js",
+    "static/media/JS.gif": "/53-video-poker/static/media/JS.d749a1baead227c7b574.gif",
+    "static/media/KC.gif": "/53-video-poker/static/media/KC.454896ac2def124effbd.gif",
+    "static/media/KS.gif": "/53-video-poker/static/media/KS.4ad57c330b2d08622c91.gif",
+    "static/media/QH.gif": "/53-video-poker/static/media/QH.04c78a916a0b69e7573d.gif",
+    "static/media/QS.gif": "/53-video-poker/static/media/QS.3cc03c1c13d2f81c7695.gif",
+    "static/media/JC.gif": "/53-video-poker/static/media/JC.ca7327962155f0f8fc28.gif",
+    "static/media/KD.gif": "/53-video-poker/static/media/KD.7d3ac11fae1e5b059137.gif",
+    "static/media/KH.gif": "/53-video-poker/static/media/KH.015d38e8d389121f1535.gif",
+    "static/media/QC.gif": "/53-video-poker/static/media/QC.3977b68088e2febfdfbf.gif",
+    "static/media/QD.gif": "/53-video-poker/static/media/QD.e4920e208957930bc64b.gif",
+    "static/media/JH.gif": "/53-video-poker/static/media/JH.6db7ca8e93348fcedb1b.gif",
+    "static/media/JD.gif": "/53-video-poker/static/media/JD.196aa0f633f6513a2c24.gif",
+    "index.html": "/53-video-poker/index.html",
+    "main.0e9e7789.css.map": "/53-video-poker/static/css/main.0e9e7789.css.map",
+    "main.b049ed9f.js.map": "/53-video-poker/static/js/main.b049ed9f.js.map",
+    "787.85b65f4e.chunk.js.map": "/53-video-poker/static/js/787.85b65f4e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e9e7789.css",
+    "static/js/main.b049ed9f.js"
+  ]
+}
